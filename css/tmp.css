@@ -80,14 +80,3 @@ hr {
     font-size: 2em;
     margin-top: 0em;
 }
-
-
-@media only screen and (max-width:1000px) {
-  h1, h2, p {
-    width:100%;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-

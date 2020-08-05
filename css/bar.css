@@ -60,6 +60,7 @@
     .fullbar {
         flex-direction: column;
         align-items:center;
+        
     }
     .menuitem {
         padding: 0.5em 5em;
@@ -67,7 +68,7 @@
     .active {
         display: flex;
         align-items: center;
-        border-top: 1px solid black;
+        border-top: 2px solid black;
         width: 100%;
     }
     
@@ -82,6 +83,7 @@
         right: 10px;
         cursor: pointer;
         font-size: 24px;
+        padding: 2px 4px;
     }
 
     
