@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>ARKS Productions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link rel=stylesheet href="./css/bar.css" type="text/css">
+    <link rel=stylesheet href="./css/hero.css" type="text/css">
+    <link rel=stylesheet href="./css/tmp.css" type="text/css">
+    <link rel=stylesheet href="./css/index.css" type="text/css">
+    <script src="https://kit.fontawesome.com/df83d895b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="fullbar">
+         <a class="logo" href="index.html" title="Home"><img src="img/long.png" alt="home" height="60" width="190"></a>
+        <a class="navbar-toggle" id="js-navbar-toggle" onclick="myToggle()">
+                    <i class="fas fa-bars"></i>
+        </a>
+        <ul class="navbar" id="bar">
+            <li>
+                <a class="menuitem"  href="about.html" title="About"><span class="descText">About</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="#portfolio" title="Portfolio"><span class="descText">Portfolio</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="pricing.html" title="Pricing"><span class="descText">Pricing</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="contact.html" title="Contact"><span class="descText">Contact</span></a>
+            </li>
+
+
+        </ul>
+    </nav>
+
+    <script>
+        function myToggle() {
+            var x = document.getElementById("bar");
+            if (x.className == "navbar") {
+                x.className += " active"
+            } else {
+                x.className = "navbar"
+            }
+        }
+    </script>
+    
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Take your ensembles online.</h1>
+            <p>ARKS Productions offers high-end mixing, mastering, and video editing that can bring your performances to the screen.</p>
+        </div>
+    </div>
+    <div>
+        <div class="wedo">
+            <i class="arrow down"></i>
+            <h1 class="subheader">Our Process</h1>
+            <hr>
+            <div class="row">
+                <div class="column">
+                    <h2>Recording</h2>
+                    <img class="icon" src="img/record.png" alt="record" height="50" width="50">
+                    <p class="subtext">We'll walk you through recording audio at home without professional equipment, and provide free cloud storage for your group to upload to. </p>
+                </div>
+                <div class="column">
+                    <h2>Audio Editing</h2>
+                    <img class="icon" src="img/audio.png" alt="audio" height="50" width="50">
+                    <p class="subtext">We'll process, tune, and fix the rhythms of each part and put it together into a mixed and mastered recording using professional software and equipment.</p>
+                </div>
+                <div class="column">
+                    <h2>Video Editing</h2>
+                    <img class="icon" src="img/editing.png" alt="edit" height="50" width="50">
+                    <p class="subtext">We'll then edit together every video and synchronize it to the recording using industry-standard software to create a clean, high-quality video performance. </p>
+                </div>
+                <div class="column">
+                    <h2>Publishing</h2>
+                    <img class="icon" src="img/publish.png" alt="publish" height="50" width="50">
+                    <p class="subtext">We'll send the finished video to you to share with the world!</p>
+                </div>
+            </div>
+        </div>
+        <div class="ourwork" id="portfolio">
+            <h1 class="subheader">Our Work</h1>
+            <hr>
+            <div align="center" class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/grTHxYK9Gx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/clhmVRKhv_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ugHGOvuPDQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y0btQeU2TMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="pricing" align="center">
+            <h1 class="subheader">Our Rates</h1>
+            <hr>
+            <p>ARKS Productions strives to provide the most value for your dollar with low, reasonable, and negotiable rates.</p>
+            <a href="pricing.html" title="pricing"><span class="descText"> <button type="button" class="button button1">See Pricing</button></span></a>
+        </div>
+        <div class="hero-image2">
+            <div class="hero-text">
+                <h1>Interested?</h1>
+                <br>
+                <a href="contact.html" title="Contact"><span class="descText"><button type="button" class="button button2">Contact Us</button></span></a>
+            </div>
+        </div>
+    </div>
+        <p class = "footer">Copyright © 2020 ARKS Productions. All Rights Reserved</p>
+
+</body>
+

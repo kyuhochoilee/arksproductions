@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>ARKS Productions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link rel=stylesheet href="./css/bar.css" type="text/css">
+    <link rel=stylesheet href="./css/tmp.css" type="text/css">
+    <link rel=stylesheet href="./css/pricing.css" type="text/css">
+    <script src="https://kit.fontawesome.com/df83d895b9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="fullbar">
+        <a class="logo" href="index.html" title="Home"><img src="img/long.png" alt="home" height="60" width="190"></a>
+        <a class="navbar-toggle" id="js-navbar-toggle" onclick="myToggle()">
+            <i class="fas fa-bars"></i>
+        </a>
+        <ul class="navbar" id="bar">
+            <li>
+                <a class="menuitem" href="about.html" title="About"><span class="descText">About</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="index.html#portfolio" title="Portfolio"><span class="descText">Portfolio</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="pricing.html" title="Pricing"><span class="descText">Pricing</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="contact.html" title="Contact"><span class="descText">Contact</span></a>
+            </li>
+
+
+        </ul>
+    </nav>
+    <script>
+        function myToggle() {
+            var x = document.getElementById("bar");
+            if (x.className == "navbar") {
+                x.className += " active"
+            } else {
+                x.className = "navbar"
+            }
+        }
+
+    </script>
+
+    <div class="bio">
+        <h1 class="midheading" align="center">Pricing</h1>
+        <br>
+        <hr>
+        <p class="subtext">Our services are for all musical ensembles, such as a cappella groups, bands, chamber groups, and more. Due to the huge differences between varying ensembles, these prices are APPROXIMATE. Contact us if you would like an accurate quote for your group! </p>
+        <!--        <h3>Sample Quote:</h3>-->
+        <i>
+            <p class="sample" align="center">SAMPLE QUOTE: <br> A Cappella Group, 3 Minute Song</p>
+        </i>
+        <h2>$19.99/member</h2>
+        <p class="subheader">Includes:</p>
+        <ul class="includes">
+            <li class="includedfeature">Guidance For Recording At Home</li>
+            <li class="includedfeature">Cloud Storage For Recordings</li>
+            <li class="includedfeature">Vocal Processing</li>
+            <li class="includedfeature">Tuning</li>
+            <li class="includedfeature">Rhythmic Correction</li>
+            <li class="includedfeature">Mixing + Mastering</li>
+            <li class="includedfeature">Video Synchronization</li>
+            <li class="includedfeature">Custom Video Layouts</li>
+            <li class="includedfeature">Graphics</li>
+            <li class="includedfeature">Polished Video Ready To Publish</li>
+        </ul>
+    </div>
+
+    <p class = "footer">Copyright © 2020 ARKS Productions. All Rights Reserved</p>
+
+</body>
+

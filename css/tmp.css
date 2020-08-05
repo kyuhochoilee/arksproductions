@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.footer {
+    font-size: 0.7em;
+    margin: auto;
+    padding: 5em;
+    text-align: center;
+    width: auto;
+}
+.white {
+    color: white;
+}
+
+p,
+.navbar a {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 1.2em;
+
+}
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0em;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    padding: 5em;
+}
+
+.subheader {
+    text-align: center;
+    padding-bottom: 0em;
+    margin-bottom: 0.4em;
+}
+
+.subtext {
+    font-size: 1em;
+    text-align: center;
+
+}
+
+hr {
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    border: .1em solid;
+    border-radius: 5px;
+}
+
+
+.video {
+    padding: 3em;
+}
+
+
+
+.midheading {
+    font-size: 2em;
+    margin-top: 0em;
+}
+
+
+@media only screen and (max-width:1000px) {
+  h1, h2, p {
+    width:100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

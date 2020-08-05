@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>ARKS Productions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link rel=stylesheet href="./css/bar.css" type="text/css">
+    <link rel=stylesheet href="./css/tmp.css" type="text/css">
+    <link rel=stylesheet href="./css/about.css" type="text/css">
+    <script src="https://kit.fontawesome.com/df83d895b9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="fullbar">
+         <a class="logo" href="index.html" title="Home"><img src="img/long.png" alt="home" height="60" width="190"></a>
+        <a class="navbar-toggle" id="js-navbar-toggle" onclick="myToggle()">
+                    <i class="fas fa-bars"></i>
+        </a>
+        <ul class="navbar" id="bar">
+            <li>
+                <a class="menuitem"  href="about.html" title="About"><span class="descText">About</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="index.html#portfolio" title="Portfolio"><span class="descText">Portfolio</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="pricing.html" title="Pricing"><span class="descText">Pricing</span></a>
+            </li>
+            <li>
+                <a class="menuitem" href="contact.html" title="Contact"><span class="descText">Contact</span></a>
+            </li>
+
+
+        </ul>
+    </nav>
+    <script>
+        function myToggle() {
+            var x = document.getElementById("bar");
+            if (x.className == "navbar") {
+                x.className += " active"
+            } else {
+                x.className = "navbar"
+            }
+        }
+    </script>
+    
+    <div class="bio">
+        <h1 class="midheading" align="center">ARKS Productions is a production team based in Lexington, MA.</h2>
+            <p class="subtext">Founded by two high schoolers that had their performances cancelled due to the coronavirus pandemic, ARKS Productions seeks to bring together ensembles through the power of technology. </p>
+            <div class="gallery">
+                <img src="img/kyuho.JPG" class="pics" alt="kyuho" height="200" width="200">
+                <img src="img/todd.jpeg" class="pics" alt="rod" height="200" width="200">
+            </div>
+
+    </div>
+
+    <p class = "footer">Copyright © 2020 ARKS Productions. All Rights Reserved</p>
+
+</body>
+
